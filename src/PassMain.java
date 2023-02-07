@@ -173,7 +173,7 @@ public class PassMain extends JFrame {
 		JLabel lblNewLabel = new JLabel("Password Length");
 		
 		amountLoop = new JSpinner();
-		amountLoop.setModel(new SpinnerNumberModel(1, 1, 99, 1));
+		amountLoop.setModel(new SpinnerNumberModel(1, 1, 999, 1));
 		
 		JLabel lblNewLabel_1 = new JLabel("Password Amount");
 		
